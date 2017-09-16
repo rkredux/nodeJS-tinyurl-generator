@@ -25,7 +25,7 @@ app.post("/tiny", function(req, res){
       res.send(tiny); //jQuery $.post callback gets this data as its argument
   } else{
     console.log("wrong input"); 
-    res.send("This is not a valid URL"); 
+    res.send({status:"invalid", display:"Hey, that was an invalid url. Input url must start with https:// or http://"}); 
   }  
 })
 
