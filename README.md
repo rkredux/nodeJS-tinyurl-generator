@@ -1,27 +1,10 @@
-Welcome to the Glitch BETA
-=========================
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
+Welcome to NodeJS tiny url generator. 
 
 
-Your Project
-------------
+This NodeJS application uses ExpressJS and Node's native Crypto module to generate random tiny URL to make absurdly long URL into easily shareable small URLs. 
 
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
+For demo hop over to https://tinymeup.glitch.me/ and input your URL using either https:// or http:// url constructs. 
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+If the url is invalid the application will not shorten your URL. 
 
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
+Use and share this application! 
